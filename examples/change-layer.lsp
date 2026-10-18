@@ -1,0 +1,6 @@
+(ensure-layer "CAD-DEMO" 1)
+(setq cad-demo-layer (tblobjname "LAYER" "CAD-DEMO"))
+(setq cad-demo-data (entget cad-demo-layer))
+(entmod (subst (cons 62 1) (assoc 62 cad-demo-data) cad-demo-data))
+(princ (strcat "\nLAYER-COLOR|" (itoa (cdr (assoc 62 (tblsearch "LAYER" "CAD-DEMO"))))))
+(princ "\nChanged CAD-DEMO layer color to red.\n")

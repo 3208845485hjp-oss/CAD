@@ -1,0 +1,22 @@
+{
+  "passed": true,
+  "dwg": "examples/verified/demo.dwg",
+  "expected": {
+    "closed_rectangle_mm": [
+      6000,
+      4000
+    ],
+    "circle_radius_mm": 500,
+    "box_mm": [
+      2000,
+      1000,
+      1500
+    ]
+  },
+  "engine": "D:\\CAD2024\\AutoCAD 2024\\accoreconsole.exe",
+  "seconds": 5.871642589569092,
+  "scope": "Synthetic example, not a reconstruction of the attached floor plan.",
+  "original_sha256": "4718cf81b6bf78dd328008d4a5ed5598a7e2861b68d9cf693ee2c5dc125b55dc",
+  "batch_layer_color_readback": 1,
+  "original_equals_batch_backup": true
+}

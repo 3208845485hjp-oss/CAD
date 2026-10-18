@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+*.bak.dwg
+*.pdf
+*.dxf
+*.dwg
+*.dwl
+*.dwl2
+ErrorReports/
+cadcore.json
+.venv/
+*.log
+!examples/verified/*.dwg
